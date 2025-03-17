@@ -5,8 +5,7 @@
 using namespace std;
 
 int main() {
-    string line;
-    string file_name = "extra.txt";
+    string file_name = "day1_real.txt";
     ifstream myfile (file_name);
     vector<int> left_list, right_list;
     int left_element, right_element;
