@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-    string filename = "day3_test.txt";
+    string filename = "day3_real.txt";
     ifstream myfile(filename);
     char character;
     string line;
